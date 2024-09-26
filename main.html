@@ -4,10 +4,43 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.holder{
+			display:flex;
+			border:1px solid black;
+			justify-content:space-between;
+			flex-wrap:wrap;
+			flex-direction:row-reverse
+		}
+		.item{
+			background-color:green;
+			width:50px;
+			height:50px;
+			
+		}
+		.red{
+			background-color:red;
+		}
+		.blue{
+			background-color:blue;
+		}
+		.green{
+			background-color:green;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="holder">
+		<div class="item red">1</div>
+		<div class="item blue">2</div>
+		<div class="item green">3</div>
+		<div class="item green">4</div>
+		<div class="item green">5</div>
+		<div class="item green">6</div>
+		<div class="item green">7</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
